@@ -252,7 +252,7 @@ button {
   }
 }
 
-/* Low Resolution Tablet View (481px – 768px) */
+/* Low Resolution Tablet View (481px – 767px) */
 @media (min-width: 481px) and (max-width: 768px) {
   html {
     font-size: 16px;
@@ -366,8 +366,8 @@ button {
   }
 }
 
-/*  Large Desktop View (min-width: 1200px) */
-@media (min-width: 1200px) {
+/*  Large (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) */
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   html {
     font-size: 19px;
   }
@@ -434,7 +434,7 @@ button {
   }
 
   /* 🖼️ Image adjustments */
-  .logoimg {
+  /* .logoimg {
     width: 100px;
   }
 
@@ -458,7 +458,7 @@ button {
 
   #access {
     padding-top: 10%;
-  }
-}
+  } */
+ 
  
 
